@@ -29,8 +29,8 @@
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
     "lint:deps": "npx updated",
-    "lint:ec": "npx editorconfig-checker .",
-    "lint:js": "npx eslint .",
+    "lint:ec": "npx editorconfig-checker ./lib",
+    "lint:js": "npx eslint ./lib",
     "lint:md": "npx remark --quiet --frail .",
     "lint": "npx npm-run-all -p -c -l lint:*",
     "setup-local": "npx install-group peer --package @telus/build-essential --no-save",
@@ -41,6 +41,9 @@
     "test": "npm run test:tap"
   },
   "devDependencies": {
+    "@telus/eslint-config": "^1.3.5",
+    "@telus/remark-config": "^1.2.0",
+    "eslint-plugin-import": "^2.14.0",
     "tap": "^12.1.1"
   }
 }
