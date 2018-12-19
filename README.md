@@ -2,7 +2,7 @@
 
 [![version][npm-image]][npm-url] [![Build Status][circle-image]][circle-url]
 
-> ¯\_(ツ)_/¯
+> ¯\_(ツ)_/¯ .
 
 ## Install
 
