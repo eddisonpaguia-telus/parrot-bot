@@ -15,6 +15,11 @@ For local development, also run:
 npm run setup-local
 ```
 
+## Using Postman
+
+1. Load the environments and collection into Postman
+1. Change the URL parameter `q` to include your query
+
 ---
 > Github: [@telus](https://github.com/telus) &bull; 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
