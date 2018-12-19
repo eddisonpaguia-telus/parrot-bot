@@ -9,7 +9,13 @@
   },
   "license": "Apache-2.0",
   "main": "index.js",
-  "keywords": ["telus","parrot bot chat telus"],
+  "keywords": [
+    "telus",
+    "parrot",
+    "bot",
+    "chat",
+    "telus"
+  ],
   "engines": {
     "node": ">=8"
   },
