@@ -20,6 +20,20 @@ npm run setup-local
 1. Load the environments and collection into Postman
 1. Change the URL parameter `q` to include your query
 
+## Test file
+
+For testing the lib locally. Yay, hacks.
+
+## Usage
+
+```js
+const Parrot = require('@telus/parrot-bot');
+
+let client = new Parrot('some key');
+
+let expectedIntent = client.getIntent('add internet 25 to cart');
+```
+
 ---
 > Github: [@telus](https://github.com/telus) &bull; 
 > Twitter: [@telusdigital](https://twitter.com/telusdigital)
