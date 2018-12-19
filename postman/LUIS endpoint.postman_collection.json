@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "3108e42c-8fc6-4f60-ada2-bee156b35b7c",
+		"name": "LUIS endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Run query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{url}}?staging={{isStaging}}&verbose=true&timezoneOffset=-360&subscription-key={{key}}&q=add internet 25 to cart",
+					"host": [
+						"{{url}}"
+					],
+					"query": [
+						{
+							"key": "staging",
+							"value": "{{isStaging}}"
+						},
+						{
+							"key": "verbose",
+							"value": "true"
+						},
+						{
+							"key": "timezoneOffset",
+							"value": "-360"
+						},
+						{
+							"key": "subscription-key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "q",
+							"value": "add internet 25 to cart"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
