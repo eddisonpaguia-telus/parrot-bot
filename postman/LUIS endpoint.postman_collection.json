@@ -1,0 +1,24 @@
+{
+	"info": {
+		"_postman_id": "3108e42c-8fc6-4f60-ada2-bee156b35b7c",
+		"name": "LUIS endpoint",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Run query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
