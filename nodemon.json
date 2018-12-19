@@ -1,0 +1,5 @@
+{
+  "events": {
+    "restart": "osascript -e 'display notification \"build completed\" with title \"nodemon\"'"
+  }
+}

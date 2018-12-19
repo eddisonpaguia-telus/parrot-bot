@@ -1,0 +1,31 @@
+{
+  "env": {
+    "production": {
+      "presets": [
+        "env",
+        "react",
+        "stage-2"
+      ],
+      "ignore": [
+        "**/__mocks__",
+        "**/__tests__",
+        "spec.jsx",
+        "spec.js"
+      ]
+    },
+    "development": {
+      "presets": [
+        "env",
+        "react",
+        "stage-2"
+      ]
+    },
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "stage-2"
+      ]
+    }
+  }
+}

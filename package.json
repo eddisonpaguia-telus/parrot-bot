@@ -8,7 +8,7 @@
     "url": "https://github.com/telus/parrot-bot.git"
   },
   "license": "Apache-2.0",
-  "main": "index.js",
+  "main": "dist",
   "keywords": [
     "telus",
     "parrot",
@@ -26,6 +26,8 @@
     "url": "https://github.com/telus/parrot-bot/issues"
   },
   "scripts": {
+    "build": "BABEL_ENV=production babel lib --out-dir dist",
+    "build:watch": "nodemon --watch lib --exec npm run build",
     "coverage": "opener coverage/lcov-report/index.html",
     "lint:audit": "npm audit",
     "lint:deps": "npx updated",
@@ -40,7 +42,19 @@
     "test:tap": "tap test --100 --coverage-report=lcov --no-browser",
     "test": "npm run test:tap"
   },
+  "peerDependencies": {
+    "react": "^16.0.0"
+  },
   "devDependencies": {
     "tap": "^11.1.0"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "nodemon": "^1.18.9",
+    "react": "^16.6.3"
   }
 }
