@@ -15,7 +15,32 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": ""
+					"raw": "{{url}}?staging={{isStaging}}&verbose=true&timezoneOffset=-360&subscription-key={{key}}&q=add internet 25 to cart",
+					"host": [
+						"{{url}}"
+					],
+					"query": [
+						{
+							"key": "staging",
+							"value": "{{isStaging}}"
+						},
+						{
+							"key": "verbose",
+							"value": "true"
+						},
+						{
+							"key": "timezoneOffset",
+							"value": "-360"
+						},
+						{
+							"key": "subscription-key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "q",
+							"value": "add internet 25 to cart"
+						}
+					]
 				}
 			},
 			"response": []
