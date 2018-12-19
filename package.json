@@ -13,8 +13,7 @@
     "telus",
     "parrot",
     "bot",
-    "chat",
-    "telus"
+    "chat"
   ],
   "engines": {
     "node": ">=8"
