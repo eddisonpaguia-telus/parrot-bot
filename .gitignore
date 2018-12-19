@@ -1,0 +1,15 @@
+.idea/
+.DS_Store
+node_modules
+.nyc_output
+coverage
+*.log
+dist
+*.map
+coverage
+certs/
+.npmrc
+server.bundle.js
+server.bundle.js.map
+.vscode/
+.editorconfig
